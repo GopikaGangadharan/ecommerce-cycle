@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color:coral;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 5rem;
+    color: white;
+  }
+  .left img{
+    width: 230px;
+    height: 55px;
+   margin-right: 240px;
+  }
+  .checkBtn{
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  .checkBtn{
+    cursor: pointer;
+    font-size: 30px;
+    float: right;
+    color:black;
+    line-height: 50px;
+  }
+  .right ul{
+    display: flex;
+    list-style: none;
+  }
+  .right ul li a{
+    padding: 10px ;
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 1s;
+  }
+  .right ul li a:hover{
+    color: black;
+  }
+  
+  @media screen and (max-width:805px) {
+   .list{
+    width: 100%;
+    height: 100vh;
+    background-color:coral;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 4rem;
+    left: 100%;
+    transition: all 1s;
+   } 
+   .left img{
+    margin-left: 50px;
+   }
+  
+   #check{
+    display: none;
+   }
+   .checkBtn{
+    display: block;
+    margin-right: 90px;
+   }
+   #check:checked~ul{
+    left: 0%;
+   }
+   
+  }
+/* ====================== */
+.image{
+    background-image: url("./images.jpg/maintenance101.jpg");
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+/* .home-station{
+    background-color: coral;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+} */
+.home-station{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.station-home{
+    padding: 15px;
+    display: inline;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color:coral;
+   margin: 30px;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: bold;
+}
+ .heading{
+    margin-left: 170px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+ }
+input{
+    width: 300px;
+    height: 50px;
+    margin-top: 10px;
+    padding-left: 15px;
+    margin-bottom: 16px;
+    margin-left: 20px;
+    
+}
+.serivce-form{
+    margin-left: 150px;
+   margin-bottom: 50px;
+
+}
+.heading2{
+    background-color: coral;
+    color: white;
+    font-weight: bold;
+    width: 170px;
+    padding: 10px;
+    margin-left: 170px;
+}
+p{
+    margin-left: 170px;
+    font-size: 20px; 
+    margin-top: 10px;
+}
+.heading3{
+    background-color: coral;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    padding: 10px;
+    margin-left: 170px;  
+    margin-top: 30PX;
+}
+
+.package-container{
+    background-color: whitesmoke;
+    width: 900px;
+    height: 250px;
+    margin-left: 170px;
+    margin-top: 30px;
+}
+.side-heading{
+    background-color: coral;
+    width: 200px;
+    height: 250px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+}
+.side-heading h2{
+    padding-top: 20px;
+}
+.side-heading p{
+    align-items: center;
+    text-align: center;
+    margin-left: 3px;
+    margin-top: 30px;
+}
+.side-content{
+    margin-left: 70px;
+    margin-top: -180px;
+    width: 320px;
+    text-align: center;
+    font-weight: bold;
+}
+.list-group{
+    margin-left: 500px;
+    margin-top: -130px;
+    font-size: 20px;
+    list-style: none;
+}
+
+.package-container2{
+    background-color: whitesmoke;
+    width: 900px;
+    height: 150px;
+    margin-left: 170px;
+    margin-top: 30px;
+}
+.side-heading2{
+    background-color: coral;
+    width: 200px;
+    height: 150px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+}
+.side-heading2 h2{
+    padding-top: 50px;
+}
+
+
+.list-group2{
+    margin-left: 300px;
+    margin-top: -130px;
+    font-size: 20px;
+    list-style: none;
+}

@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.navbar{
+    background-color:coral;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 5rem;
+    color: white;
+  }
+  .left img{
+    width: 230px;
+    height: 55px;
+   margin-right: 240px;
+  }
+  .checkBtn{
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  .checkBtn{
+    cursor: pointer;
+    font-size: 30px;
+    float: right;
+    color:black;
+    line-height: 50px;
+  }
+  .right ul{
+    display: flex;
+    list-style: none;
+  }
+  .right ul li a{
+    padding: 10px ;
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 1s;
+    text-align: right;
+  }
+  .right ul li a:hover{
+    color: black;
+  }
+  
+  @media screen and (max-width:805px) {
+   .list{
+    width: 100%;
+    height: 100vh;
+    background-color:coral;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 4rem;
+    left: 100%;
+    transition: all 1s;
+   } 
+   .left img{
+    margin-left: 50px;
+   }
+  
+   #check{
+    display: none;
+   }
+   .checkBtn{
+    display: block;
+    margin-right: 90px;
+   }
+   #check:checked~ul{
+    left: 0%;
+   }
+   
+  }
+a{
+    color: white;
+    text-decoration: none;
+  
+}
+.wrapper .sidenavbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 20vW;
+    height: 100vh;
+    background: coral;
+}
+/* .wrapper .sidenavbar i{
+  font-size: 80px;
+  color: white;
+} */
+.wrapper .sidenavbar h1{
+    color: white;
+    text-align: center;
+    line-height: 80px;
+    /* border-bottom: 1px dotted white; */
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+.wrapper .sidenavbar ul li{
+    list-style: none;
+    text-decoration: none;
+    padding: 15px;
+    /* border-bottom: 1px solid white;
+    border-top: 1px solid white; */
+    text-align: center;
+}
+.wrapper .main-content{
+    width: 80vw;
+    margin-left: 21vw;
+}
+section{
+    
+    padding: 30px;
+}
+
+.bikes-item img{
+    width: 920px;
+    height: 370px;
+   
+  
+   }
+   
+.feature-card{
+    margin-top: 0px;
+    padding-top: 0px;
+       display: flex;
+         flex-wrap: wrap;
+         align-items: center;
+         justify-content: center;
+        
+     }
+.features{
+    margin-top: 0px;
+    padding-top: 0px;
+        margin: 2rem; 
+         padding: 10px; 
+         width: 150px;
+         display: flex;
+         align-items: center;
+         flex-direction: column;
+         justify-content: center;
+         transition: all 1s ;
+         cursor: pointer;
+         
+     } 
+
+button{
+    padding: 20px;
+    background-color: coral;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}     
+   
+ .bikes-item P{
+      margin-top: 15px; 
+       
+     } 
+
+     
